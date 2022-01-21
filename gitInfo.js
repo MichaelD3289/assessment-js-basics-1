@@ -11,6 +11,7 @@
 
 //CODE HERE
 
+const gitDefinition = "Git is a program that helps with version control. It allows you to track changes to code and to view that history."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +19,8 @@
 */
 
 //CODE HERE
+const gitHubDefinition = 'GitHub is essenially a cloud version of Git. You are able to access it online and sent your git commits to it or create ones entirely on github. It make sit easier to share projects with other developers'
+
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +29,8 @@
 */
 
 //CODE HERE
+const gitInitDefinition = 'Git Init creates a repository inside the folder you initilize it in. A repository is a code project so git init is initializing a new code project.'
+
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -35,6 +40,9 @@
 
 //CODE HERE
 
+const gitCloneDefinition = 'git clone copies a repo to a new repo. This allows to to work on it seperately without messing up the main file'
+
+
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,6 +50,8 @@
 */
 
 //CODE HERE
+const gitStatusDefinition = 'git status allows you to see through the command line what is happening inside your repo. It shows which files have or havent been added to be committed. It also shows how many changes have been made since your last commit'
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +63,10 @@
 */
 
 //CODE HERE
+const gitAddDefinition = 'Git add is how to tell git to start tracking files'
+
+const gitAddCode = 'git add .'
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,6 +78,9 @@
 */
 
 //CODE HERE
+const gitCloneDefinition = 'git commit happens after you have added the file to be tracking. Committing it is what actually creates that save or snapshot of that file so you can log each change and see the history.'
+
+const gitCommitCode = 'git commit -m "initial commit"'
 
 
 //////////////////PROBLEM 8////////////////////
@@ -73,3 +90,5 @@
 */
 
 //CODE HERE
+
+const gitPushDefinition = 'Git push is how we move the file to github. Using the URL for the repository that exists in github will let our computer know to send that last commit up.'
